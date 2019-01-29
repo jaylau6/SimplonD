@@ -1,0 +1,84 @@
+/*general*/
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-family: Arial,sans-serif;
+	font-size: 15px;
+}
+h3
+{
+	float: left;
+	color: ;
+}
+ul
+{
+	list-style: none;
+}
+h2
+{
+	text-align: center;
+	color: white;
+	background: rgba(255,255,255,0.95);
+}
+.wrapper
+{
+    width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+
+}
+
+
+
+
+
+
+
+
+/*header*/
+
+header
+{
+	height: 120px;
+	font-family: "avenir-bold";
+	padding: 10px 0;
+}
+header h3
+{
+	padding: 10px 0;
+
+	float:left;
+	margin-top: 32px;
+
+
+
+}
+header nav
+{
+	float: right;
+	margin-top: 32px;
+}
+header nav ul li
+{
+	float: left;
+	display: inline-block;
+}
+header nav ul li 
+{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.overlay
+{
+	background: rgba(255,255,255, 0.95);
+
+/*MAIN IMAGE*/
+#iamge 
+{
+
+}
