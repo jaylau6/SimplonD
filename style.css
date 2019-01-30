@@ -8,21 +8,43 @@ body
 {
 	font-family: Arial,sans-serif;
 	font-size: 15px;
+	margin: 0;
+	padding: 0;
+
+
 }
 h3
 {
 	float: left;
-	color: ;
+	color: white;
 }
 ul
 {
 	list-style: none;
+	color: white;
 }
 h2
 {
 	text-align: center;
-	color: white;
+	color: black;
 	background: rgba(255,255,255,0.95);
+}
+h1
+{
+	float: 
+}
+.button-1
+{
+	display: block;
+	width: 120px;
+	height: 50px;
+	background: #ff7a00;
+	font-size: 15px;
+	margin: 0 auto;
+	line-height: 50PX;
+	text-align: center;
+	border-radius: 3px;
+	float: left; 
 }
 .wrapper
 {
@@ -30,6 +52,24 @@ h2
 	margin: 0 auto;
 	padding: 0 10px;
 
+}
+
+.imgback
+{
+position: fixed;
+background-image: center;
+z-index: -10;
+top: 0; left: 0; right: 0; bottom: 0;
+background-color: rgba(255, 255, 255, 0.5); /* L'opacite se regle ici */
+opacity: 0.7;
+max-width: 100%;
+height: auto;
+
+}
+.imgback h2
+{
+	font-weight: normal;
+	background-size: cover;
 }
 
 
@@ -43,9 +83,13 @@ h2
 
 header
 {
-	height: 120px;
-	font-family: "avenir-bold";
-	padding: 10px 0;
+height: 65px;
+font-family: "avenir-bold";
+background: black;
+width: 100%;
+margin:0;
+padding: 10px;
+
 }
 header h3
 {
@@ -66,19 +110,22 @@ header nav ul li
 {
 	float: left;
 	display: inline-block;
+	
 }
 header nav ul li 
 {
 	display: inline-block;
 	margin-right: 20px;
+	
+
 }
+
 
 .overlay
 {
 	background: rgba(255,255,255, 0.95);
 
-/*MAIN IMAGE*/
-#iamge 
-{
 
-}
+
+
+
